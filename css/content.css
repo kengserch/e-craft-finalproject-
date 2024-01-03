@@ -1,0 +1,1538 @@
+@font-face {
+    font-family: 'mitrregular';
+    src: url('../font/mitr-regular-webfont.eot');
+    src: url('../font/mitr-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/mitr-regular-webfont.woff2') format('woff2'),
+         url('../font/mitr-regular-webfont.woff') format('woff'),
+         url('../font/mitr-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* reset */
+html,body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	
+	
+}
+nav ul{
+	list-style: none;	
+}
+a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	
+}
+hr{
+	display: block;
+	height: 1px;
+	border-top: 1px solid #ccc;
+}
+input,select{
+	vertical-align: middle;
+}
+ul li a{
+	
+	font-size: 18pt;
+}
+/* Full width screen */
+/* .wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background: #252525;
+}
+.menu-icon{
+    float: right;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+.menu-icon i{
+    color: white;
+    font-size: 24pt;
+    padding: 10px 15px;
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    background-color: #252525;
+    border-radius: 50%;
+    margin-left: 5%;
+    position: relative;
+    top: 20px;
+}
+.circle img{
+    padding: 15px 20px;
+}
+.banner{
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+
+} */
+nav ul li a{
+	margin-top: 10px;
+	font-family: 'mitrregular';
+	color: white;
+	
+}
+.ecraft-logo {
+	float: left;
+	margin-left: 10%;
+}
+
+
+.navbar-toggle i{
+    color: white;
+    font-size: 24pt;
+    padding: 10px 15px;
+}
+
+
+.banner{
+	
+	width: 100%;
+	background: pink;
+	text-align: center;
+	top: 50px;
+}
+.banner img{
+	width: 100%;
+	
+	
+}
+
+.box-banner{
+	width: 100%;
+	height: 25vh;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 30vh;
+	
+}
+.box-banner h1{
+	margin-top: 5vh;
+	font-family: 'mitrregular';
+	color: white;
+	font-size: 7vw;
+}
+
+
+.active{ 
+	background: white;
+	border-radius: 20px;
+}
+
+
+.head-craft-level{
+	width: 100%;
+	height: 70px;	
+	background-image: url('../images/headbar-desktop.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.head-craft-level h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	float: left;
+	margin-top: 17px;
+	margin-left : 50px;
+}
+.image-level{
+	float: left;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+.craft-level{
+	width: 100%;
+	height: 500px;
+	background: blanchedalmond;
+	float: left;
+	position: relative;
+}
+.create{
+	width: 25%;
+	height: 100%;
+	background-image: url('../images/menu-select.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	float: left;	
+}
+.create img{
+	width: 10vw;
+	margin-left: 8vw;
+	margin-top:14vh;
+}
+.create h1{
+	text-align: center;
+	font-family: 'mitrregular';
+	color: white;
+}
+.create button{
+	border-radius: 30px;
+	font-size: 2vw;
+	font-family: 'mitrregular';
+	outline:none;
+	width: 170px;
+	height: 50px;
+	margin: 0 30%;
+}
+.create button i p{
+	font-family: 'mitrregular';
+	float: right;
+	}
+
+.level1{
+	width: 25%;
+	height: 100%;
+	background-image: url('../images/menu-select2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+			
+}
+.level1 img{
+	width: 10vw;
+	margin-left: 8vw;
+	margin-top:14vh;
+}
+.level1 h1{
+	text-align: center;
+	font-family: 'mitrregular';
+	color: white;
+	margin-top: 8vh;
+}
+.level1 button{
+	border-radius: 30px;
+	font-size: 2vw;
+	font-family: 'mitrregular';
+	outline:none;
+	width: 170px;
+	height: 50px;
+	margin: 0 30%;
+}
+.level1 button i p{
+	font-family: 'mitrregular';
+	float: right;
+	}
+.level2{
+	width: 25%;
+	height: 100%;
+	background-image: url('../images/menu-select3.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;		
+}
+.level2 img{
+	width: 10vw;
+	margin-left: 8vw;
+	margin-top:14vh;
+}
+.level2 h1{
+	text-align: center;
+	font-family: 'mitrregular';
+	color: white;
+}
+.level2 button{
+	border-radius: 30px;
+	font-size: 2vw;
+	font-family: 'mitrregular';
+	outline:none;
+	width: 170px;
+	height: 50px;
+	margin: 0 30%;
+}
+.level2 button i p{
+	font-family: 'mitrregular';
+	float: right;
+	}
+.level3{
+	width: 25%;
+	height: 100%;
+	background-image: url('../images/menu-select4.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;		
+}
+.level3 img{
+	width: 10vw;
+	margin-left: 8vw;
+	margin-top:14vh;
+}
+.level3 h1{
+	text-align: center;
+	font-family: 'mitrregular';
+	color: white;
+}
+.level3 button{
+	border-radius: 30px;
+	font-size: 2vw;
+	font-family: 'mitrregular';
+	outline:none;
+	width: 170px;
+	height: 50px;
+	margin-left: 7vw;
+	text-align: center;
+}
+.level3 button i p{
+	font-family: 'mitrregular';
+	float: right;
+	}
+
+.head-contest{
+	width: 100%;
+	height: 70px;	
+	background-image: url('../images/headbar-desktop.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.head-contest h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	float: left;
+	margin-top: 16px;
+	margin-left : 70px;
+}
+.image-contest{
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.subhead-contest{
+	width: 100%;
+	height: 70px;
+	background: palevioletred;
+	float: left;
+}
+.boxwin{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #c43033
+	
+}
+.boxwin h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.boxvote{
+	width: 50%;
+	height: 100%;
+	background: #e44547;
+	float: left;
+}
+.boxvote h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+	
+}
+.contest{
+	width: 100%;
+	height: 700px;
+	background-image: url('../images/contest-box.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.boxcontest{
+	width: 50vw;
+	height: 46vh;
+	border-radius: 20px;
+	background: white;
+	margin-top: 5%;
+	margin-left: 25vw;
+	
+}
+.leftcon{
+	width: 50%;
+	height: 100%;
+	/* background: #d13b3d; */
+	float: left;
+}
+	.rightcon{
+	width: 50%;
+	height: 100%;
+	/* background: forestgreen; */
+	float: left;
+}
+	.rightcon h1{
+	font-family: 'mitrregular';
+	font-size: 3.5vw;
+	text-align: center;
+	color: #000;
+	margin-top: 15px;
+}
+	.rightcon button{
+	color: white;
+	background: #000;
+	border-radius: 20px;
+	margin-left: 25%;
+	margin-top: 20%;
+	height: 30px;
+	transform: scale(2.2);
+	outline:none;
+	
+	}
+	.rightcon button i p{
+		font-family: 'mitrregular';
+		float: right;
+		
+		}
+	
+	
+	.reply{
+		background: #252525;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		float: right;
+		margin-right: 15%;
+		margin-top:2%;
+		transform: scale(2.2)
+	}
+	.reply i{
+		color: white;
+		margin-left: 20%;
+		margin-top: 18%;
+	}
+	.love{
+		background: #252525;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		float: right;
+		margin-right: -10%;
+		margin-top:25%;
+		transform: scale(2.2)
+	}
+	.love i{
+		color: white;
+		margin-left: 25%;
+		margin-top: 22%;
+	}
+	.other button{
+		color: black;
+		background: white;
+		border-radius: 20px;
+		font-family: 'mitrregular';
+		text-align: center;
+		transform: scale(2.5);
+		margin-left:10%;
+		margin-top:15%;
+	}
+	.contesthere button{
+		color: black;
+		background: white;
+		border-radius: 20px;
+		font-family: 'mitrregular';
+		text-align: center;
+		transform: scale(2.5);
+		float: right;
+		margin-right: 10%;
+		margin-top:-3%;
+	}
+
+
+	
+
+.head-diy{
+	width: 100%;
+	height: 70px;	
+	background-image: url('../images/headbar-desktop.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.head-diy h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	float: left;
+	margin-top: 20px;
+	margin-left : 80px;
+}
+.image-diy{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.subhead-diy{
+	width: 100%;
+	height: 70px;
+	background: palevioletred;
+	float: left;
+}
+.boxnow{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #e44547;
+	
+}
+.boxnow h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.boxhit{
+	width: 50%;
+	height: 100%;
+	background: #c43033;
+	float: left;
+}
+.boxhit h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+	margin-top: 15px;	
+}
+.diy-container{
+  	width: 100%;
+  	height: 1000px;
+  	background-image: url('../images/content-box.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.boxdiy1{
+	background: white;
+	width: 30%;
+	height: 65vh;
+	border-radius: 30px;
+	margin-left: 3%;
+	float: left;
+	margin-top:10%
+}
+.boxdiy1 img{
+	width: 100%;
+	padding: 10% 10%  ;
+	height: auto;
+}
+.boxdiy1 h1{
+	font-size: 2vw;
+	font-family: 'mitrregular';
+	text-align: left;
+	color: black;
+	margin-left: 10%;
+	margin-top:1%;
+}
+.boxdiy1 button{
+	width: 30%;
+	background: #000;
+	height: 10%;
+	color: white;
+	border-radius: 10px;
+	margin-top: 2%;
+	margin-left: 10%;
+	font-family: 'mitrregular';
+}
+.boxdiy1 .reply{
+	transform: scale(1.5);
+	margin-left: -1%;
+	
+}
+.boxdiy1 .reply i{
+	margin-left: 25%;
+	margin-top: 20%;
+	
+}
+
+
+.head-material{
+	width: 100%;
+	height: 70px;	
+	background-image: url('../images/headbar-desktop.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.head-material h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	float: left;
+	margin-top: 17px;
+	margin-left : 80px;
+}
+.image-material{
+	float: left;
+	margin-left: 30px;
+	margin-top: 13px;
+}
+
+.subhead-material{
+	width: 100%;
+	height: 70px;
+	background: palevioletred;
+	float: left;
+}
+.boxmaterial{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: #d13b3d;
+	
+}
+.boxmaterial h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.container-material{
+	width: 100%;
+	height: 650px;
+	background: #e44547;
+	float: left;
+}
+.box-m1{
+	width: 33.3%;
+	height: 50%;
+	background: green;
+	float: left;
+	background-image: url('../images/material-box.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.box-m1 img{
+	width: 150px;
+	margin: 0 35%;
+	margin-top: 5vh;
+}
+.box-m1 h1{
+	font-family: 'mitrregular';
+	text-align: center;
+	color:white;
+	font-size: 28pt;
+}
+.box-m2{
+	width: 33.3%;
+	height: 50%;
+	background: burlywood;
+	float: left;
+	background-image: url('../images/material-box1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.box-m2 img{
+	width: 150px;
+	margin: 0 35%;
+	margin-top: 5vh;
+}
+.box-m2 h1{
+	font-family: 'mitrregular';
+	text-align: center;
+	color:white;
+	font-size: 28pt;
+}
+.box-m3{
+	width: 33.3%;
+	height: 50%;
+	background: purple;
+	float: left;
+	background-image: url('../images/material-box2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.box-m3 img{
+	width: 150px;
+	margin-left:35%;
+	margin-top: 5vh;
+}
+.box-m3 h1{
+	font-family: 'mitrregular';
+	text-align: center;
+	color:white;
+	font-size: 28pt;
+}
+.box-m4{
+	width: 33.3%;
+	height: 50%;
+	background: violet;
+	float: left;
+	background-image: url('../images/material-box2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.box-m4 img{
+	width: 70px;
+	margin: 0 45%;
+	margin-top: 5vh;
+}
+.box-m4 h1{
+	font-family: 'mitrregular';
+	text-align: center;
+	color:white;
+	font-size: 28pt;
+}
+.box-m5{
+	width: 33.3%;
+	height: 50%;
+	background: khaki;
+	float: left;
+	background-image: url('../images/material-box3.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.box-m5 img{
+	width: 150px;
+	margin-left:35%;
+	margin-top: 5vh;
+}
+.box-m5 h1{
+	font-family: 'mitrregular';
+	text-align: center;
+	color:white;
+	font-size: 28pt;
+	margin-top: 5vh;
+}
+.box-m6{
+	width: 33.3%;
+	height: 50%;
+	background: slateblue;
+	float: left;
+	background-image: url('../images/material-box.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.box-m6 img{
+	width: 150px;
+	margin-left:35%;
+	margin-top: 20%;
+}
+.box-m6 h1{
+	font-family: 'mitrregular';
+	text-align: center;
+	color:white;
+	font-size: 28pt;
+}
+
+.image-footer{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: slategray;
+	
+}
+.footer{
+	height: 300px;
+	width: 100%;
+	background: #252525;
+	float: left;
+}
+.left-footer{
+	width: 25%;
+	height: 100%;
+	
+	float: left;
+}
+.left-footer img{
+	margin-left: 30% ;
+	margin-top: 30% ;
+}
+.middle-footer{
+	width: 50%;
+	height: 100%;
+	
+	float: left;
+}
+.top-mid{
+	width: 100%;
+	height: 50%;
+	
+}
+.top-mid i{
+	font-size: 40pt;
+	padding-left: 7%;
+	color: white;
+	margin-top:70px;
+	margin-left:40px;
+}
+.bottom-mid{
+	width: 100%;
+	height: 50%;
+	
+	float: left;
+}
+.bottom-mid h1{
+	font-family: 'mitrregular';
+	font-size: 20pt;
+	text-align: center;
+	margin-top: 5%;
+	color: white;
+}
+.backtotop{
+	background: #363636;
+	border-radius: 20px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-top:70px;
+	margin-left:5%;
+}
+.backtotop i{
+	color: white;
+	font-size: 70pt;
+	margin-left: 30%;
+	margin-top:20%;
+}
+.footer-mobile{
+	display: none;
+}
+.image-content{
+    width: 100%;
+    height: 50vh;
+    background: #363636;
+    float: left;
+}
+.detail-content{
+    width: 100%;
+    height: 40vh;
+    background-image: url('../images/pagecontent-detail.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+    float: left;
+}
+.detail-content p{
+    color: white;
+    font-family: 'mitrregular';
+    margin : 10% 10%;
+    font-size: 14pt;
+}
+.box-headercon{
+    width: 30vw;
+    height: 20vh;
+    background: #f7b500;
+    float: left;
+    position: absolute;
+    border-radius: 20px;
+    margin-top:10vw;
+}
+.box-headercon h2{
+    font-family: 'mitrregular';
+	font-size: 3vw;
+	text-align: center;
+	margin-top: 5%;
+	color: white;
+}
+.box-headercon button{
+    width: 10vw;
+    height: 7vh;
+    background: #000;
+    color: white;
+    border-radius: 20px;
+    font-family: 'mitrregular';
+    font-size: 2vw;
+    outline: none;
+    margin-left: 10vw;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1023px){
+	.banner{
+		margin-top:80px
+		
+	}
+	.banner img{
+		width: 100%;
+		
+	}
+	.box-banner{
+	width: 100%;
+	height: 18vh;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 22vh;
+	
+}
+.box-banner h1{
+	margin-top: 5vh;
+	font-family: 'mitrregular';
+	color: white;
+	font-size: 7vw;
+}
+	.craft-level{
+		width: 100%;
+		height: 400px;
+		background: blanchedalmond;
+		float: left;
+		position: relative;
+	}
+	.create{
+		width: 25%;
+		height: 50%;
+		background-image: url('../images/menu-select.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: 0;
+		float: left;
+		display: none;	
+	}
+	.level1{
+		width: 33.3%;
+		height: 100%;
+		background-image: url('../images/menu-select2.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;		
+	}
+	.level1 img{
+		width: 15vw;
+		margin-left: 9vw;
+		margin-top:10vh;
+	}
+	.level1 h1{
+		text-align: center;
+		font-family: 'mitrregular';
+		color: white;
+		margin-top: 3vh;
+	}
+	.level1 button{
+		border-radius: 30px;
+		font-size: 2vw;
+		font-family: 'mitrregular';
+		outline:none;
+		width: 18vw;
+		height: 7vh;
+		margin-left: 7vw;
+		margin-top:2vh;
+	}
+	.level2{
+		width: 33.3%;
+		height: 100%;
+		background-image: url('../images/menu-select3.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;		
+	}
+	.level2 img{
+		width: 15vw;
+		margin-left: 9vw;
+		margin-top:10vh;
+	}
+	.level2 h1{
+		text-align: center;
+		font-family: 'mitrregular';
+		color: white;
+		margin-top: 2vh;
+	}
+	.level2 button{
+		border-radius: 30px;
+		font-size: 2vw;
+		font-family: 'mitrregular';
+		outline:none;
+		width: 18vw;
+		height: 7vh;
+		margin-left: 7vw;
+		margin-top:2vh;
+	}
+	.level3{
+		width: 33.3%;
+		height: 100%;
+		background-image: url('../images/menu-select4.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;		
+	}
+	.level3 img{
+		width: 15vw;
+		margin-left: 9vw;
+		margin-top:7vh;
+	}
+	.level3 h1{
+		text-align: center;
+		font-family: 'mitrregular';
+		color: white;
+		margin-top: 4vh;
+	}
+	.level3 button{
+		border-radius: 30px;
+		font-size: 2vw;
+		font-family: 'mitrregular';
+		outline:none;
+		width: 18vw;
+		height: 7vh;
+		margin-left: 7vw;
+		margin-top:2vh;
+	}
+
+
+
+
+	
+	.image-footer{
+		width: 100%;
+		height: auto;
+		float: left;
+		background: slategray;
+		
+	}
+	.top-mid{
+		width: 100%;
+		height: 50%;
+		
+	}
+	.top-mid i{
+		font-size: 30pt;
+		padding-left: 5%;
+		color: white;
+		margin-top:70px;
+		margin-left:30px;
+	}
+	.bottom-mid{
+		width: 100%;
+		height: 50%;
+		
+		float: left;
+	}
+	.bottom-mid h1{
+		font-family: Mitr;
+		font-size: 18pt;
+		text-align: center;
+		margin-top: 5%;
+	}
+	.backtotop{
+		background: #363636;
+		border-radius: 20px;
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-top:70px;
+		margin-left:3vw;
+	}
+	.left-footer img{
+		margin-left: 5vw ;
+		margin-top: 8vh ;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Mobile size */
+@media only screen and (max-width: 767px){
+	
+	.banner{
+		margin-top:80px
+		
+	}
+	.banner img{
+		width: 100%;
+		
+	}
+	.box-banner{
+		width: 100%;
+		height: 15vh;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		top: 20vh;
+		
+	}
+	.box-banner h1{
+		margin-top: 5vh;
+		font-family: 'mitrregular';
+		color: white;
+		font-size: 7vw;
+	}
+	.craft-level{
+		width: 100%;
+		height: 700px;
+		background: blanchedalmond;
+		float: left;
+		position: relative;
+	}
+	.create{
+		width: 25%;
+		height: 50%;
+		background-image: url('../images/menu-select.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: 0;
+		float: left;
+		display: none;	
+	}
+	.level1{
+		width: 50%;
+		height: 50%;
+		background-image: url('../images/menu-select2.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;		
+	}
+	.level1 img{
+		width: 30vw;
+		margin-left: 9vw;
+		margin-top:14vh;
+	}
+	.level1 h1{
+		text-align: center;
+		font-family: 'mitrregular';
+		color: white;
+		margin-top: 3vh;
+	}
+	.level1 button{
+		border-radius: 30px;
+		font-size: 4vw;
+		font-family: 'mitrregular';
+		outline:none;
+		width: 25vw;
+		height: 10vh;
+		margin-left: 11vw;
+		margin-top:2vh;
+	}
+	.level2{
+		width: 50%;
+		height: 50%;
+		background-image: url('../images/menu-select3.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;		
+	}
+	.level2 img{
+		width: 30vw;
+		margin-left: 9vw;
+		margin-top:13vh;
+	}
+	.level2 h1{
+		text-align: center;
+		font-family: 'mitrregular';
+		color: white;
+		margin-top: 1vh;
+	}
+	.level2 button{
+		border-radius: 30px;
+		font-size: 4vw;
+		font-family: 'mitrregular';
+		outline:none;
+		width: 25vw;
+		height: 10vh;
+		margin-left: 20%;;
+		margin-top:2vh;
+	}
+	.level3{
+		width: 100%;
+		height: 50%;
+		background-image: url('../images/menu-select5.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;		
+	}
+	.level3 img{
+		width: 40vw;
+		margin-left: 9vw;
+		margin-top:20vh;
+		float: left;
+	}
+	.level3 h1{
+		text-align: center;
+		font-family: 'mitrregular';
+		color: white;
+		margin-top: 25vh;
+	}
+	.level3 button{
+		border-radius: 25px;
+		font-size: 4vw;
+		font-family: 'mitrregular';
+		outline:none;
+		width: 28vw;
+		height: 10vh;
+		margin-left: 10vw;
+		margin-top:2vh;
+	}
+	.contest{
+		width: 100%;
+		height: 400px;
+		background-image: url('../images/contest-box.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;
+	}
+	.boxcontest{
+		width: 70vw;
+		height: 20vh;
+		border-radius: 20px;
+		background: white;
+		margin-left: 15vw;
+		margin-top: 17vh;
+		transform: scale(1.2);
+		
+		
+	}
+	.leftcon img{
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+	.rightcon h1{
+		font-family: 'mitrregular';
+		font-size: 5vw;
+		
+		color: #000;
+		margin-top: 15px;
+	}
+	.rightcon button{
+	color: white;
+	background: #000;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 14%;
+	height: 30px;
+	transform: scale(0.9)
+	}
+	.reply{
+		background: #252525;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		float: right;
+		margin-right: 10%;
+		margin-top:-5%;
+		transform: scale(0.9)
+	}
+	.reply i{
+		color: white;
+		margin-left: 20%;
+		margin-top: 18%;
+	}
+	.love{
+		background: #252525;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		float: right;
+		margin-right: -20%;
+		margin-top: 15%;
+		transform: scale(0.9)
+	}
+	.love i{
+		color: white;
+		margin-left: 25%;
+		margin-top: 22%;
+	}
+	.other button{
+		color: black;
+		background: white;
+		border-radius: 20px;
+		font-family: 'mitrregular';
+		text-align: center;
+		transform: scale(1.3);
+		margin-left:10%;
+		margin-top:15%;
+	}
+	.contesthere button{
+		color: black;
+		background: white;
+		border-radius: 20px;
+		font-family: 'mitrregular';
+		text-align: center;
+		transform: scale(1.3);
+		float: right;
+		margin-right: 10%;
+	}
+	.container-material{
+		width: 100%;
+		height: 750px;
+		background: #e44547;
+		float: left;
+	}
+	.box-m1{
+		width: 50%;
+		height: 33.3%;
+		background: green;
+		float: left;
+		background-image: url('../images/material-box.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+	.box-m1 img{
+		width: 100px;
+		margin-left: 20%;
+		margin-top: 5vh;
+	}
+	.box-m1 h1{
+		font-family: 'mitrregular';
+		text-align: center;
+		color:white;
+		font-size: 17pt;
+	}
+	.box-m2{
+		width: 50%;
+		height: 33.3%;
+		background: burlywood;
+		float: left;
+		background-image: url('../images/material-box1.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.box-m2 img{
+		transform: scale(0.6);
+		float:left;
+		margin-left: 1%;
+	}
+	.box-m2 h1{
+		font-family: 'mitrregular';
+		text-align: center;
+		color:white;
+		font-size: 17pt;
+	}
+	.box-m3{
+		width: 50%;
+		height: 33.3%;
+		background: purple;
+		float: left;
+		background-image: url('../images/material-box2.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.box-m3 img{
+		width: 100px;
+		margin-left: 20%;
+		margin-top: 5vh;
+	}
+	.box-m3 h1{
+		font-family: 'mitrregular';
+		text-align: center;
+		color:white;
+		font-size: 17pt;
+	}
+	.box-m4{
+		width: 50%;
+		height: 33.3%;
+		background: violet;
+		float: left;
+		background-image: url('../images/material-box2.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.box-m4 img{
+		transform: scale(0.8);
+		float:left;
+		margin-left: 30%;
+	}
+	.box-m4 h1{
+		font-family: 'mitrregular';
+		text-align: center;
+		color:white;
+		font-size: 17pt;
+	}
+	.box-m5{
+		width: 50%;
+		height: 33.3%;
+		background: khaki;
+		float: left;
+		background-image: url('../images/material-box3.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.box-m5 img{
+		width: 100px;
+		margin-left: 20%;
+		margin-top: 5vh;
+	}
+	.box-m5 h1{
+		font-family: 'mitrregular';
+		text-align: center;
+		color:white;
+		font-size: 17pt;
+	}
+	.box-m6{
+		width: 50%;
+		height: 33.3%;
+		background: slateblue;
+		float: left;
+		background-image: url('../images/material-box.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.box-m6 img{
+		width: 100px;
+		margin-left: 20%;
+		margin-top: 10vh;
+	}
+	.box-m6 h1{
+		font-family: 'mitrregular';
+		text-align: center;
+		color:white;
+		font-size: 17pt;
+	}
+	.image-footer{
+		width: 100%;
+		height: auto;
+		float: left;
+		background: slategray;
+		
+	}
+	.footer{
+		height: 300px;
+		width: 100%;
+		background: #252525;
+		display: none;
+		
+	}
+	.left-footer{
+		width: 25%;
+		height: 100%;
+		background: indigo;
+		float: left;
+	}
+	.left-footer img{
+		margin-left: 30% ;		
+		margin-top: 30% ;
+		cursor: pointer;
+	}
+	.footer-mobile{
+		width: 100%;
+		height: auto;
+		background: #252525;
+		float: left;
+		display: block;
+	}
+	.footer-mobile img{
+		margin-left: 5%;
+	}
+	.footer-mobile i{
+		color: white;
+		font-size: 5vw;
+		margin-left: 6vw;
+		cursor: pointer;
+	}
+	.mobile-btt{
+		background: #363636;
+		float: right;
+		width: 15vw;
+		height: 7vh;
+		border-radius: 10px;
+		margin-right: 3%;
+		margin-top:5%;
+	}
+	.mobile-btt i{
+		font-size: 8vw;
+		margin-left: 5vw;
+		margin-top: 13%;
+	}
+	.boxdiy1{
+		background: white;
+		width: 90%;
+		height: 50vh;
+		border-radius: 30px;
+		margin-left: 3%;
+		float: left;
+		margin-top:10%
+	}
+	.boxdiy1 img{
+		width: 100%;
+		padding: 10% 10%  ;
+		height: auto;
+	}
+	.boxdiy1 h1{
+		font-size: 4vw;
+		font-family: 'mitrregular';
+		text-align: left;
+		color: black;
+		margin-left: 10%;
+		margin-top:-10%;
+	}
+	.boxdiy1 button{
+		width: 30%;
+		background: #000;
+		height: 10%;
+		color: white;
+		border-radius: 10px;
+		margin-top: 2%;
+		margin-left: 10%;
+		font-family: 'mitrregular';
+	}
+	.boxdiy1 .reply{
+		transform: scale(1.5);
+		margin-left: -1%;
+		
+	}
+	.boxdiy1 .reply i{
+		margin-left: 25%;
+		margin-top: 20%;
+		
+	}
+	.diy-container{
+		width: 100%;
+		height: 1200px;
+		background-image: url('../images/content-box.png');
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  float: left;
+  }
+  .detail-content{
+    width: 100%;
+    height: 48vh;
+    background-image: url('../images/pagecontent-detail.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+    float: left;
+}
+.box-headercon{
+    width: 45vw;
+    height: 20vh;
+    background: #f7b500;
+    float: left;
+    position: absolute;
+    border-radius: 20px;
+    margin-top:20vw;
+}
+.box-headercon h2{
+    font-family: 'mitrregular';
+	font-size: 15pt;
+	text-align: center;
+	margin-top: 5%;
+	color: white;
+}
+.box-headercon button{
+    width: 25vw;
+    height: 7vh;
+    background: #000;
+    color: white;
+    border-radius: 20px;
+    font-family: 'mitrregular';
+    font-size: 10pt;
+    outline: none;
+    margin-left: 10vw;
+}
+
+}
